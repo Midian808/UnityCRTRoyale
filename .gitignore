@@ -1,0 +1,22 @@
+# Unity caches and per-user state
+Unity/TestBuiltIn/[Ll]ibrary/
+Unity/TestBuiltIn/[Tt]emp/
+Unity/TestBuiltIn/[Ll]ogs/
+Unity/TestBuiltIn/[Uu]ser[Ss]ettings/
+Unity/TestURP/[Ll]ibrary/
+Unity/TestURP/[Tt]emp/
+Unity/TestURP/[Ll]ogs/
+Unity/TestURP/[Uu]ser[Ss]ettings/
+
+# Test players (they include a third-party ReShade install) and test output
+Unity/Build/
+Unity/.tmp/
+
+# IDE files
+.vs/
+*.csproj
+*.sln
+
+# Third-party files Unity packages generate into Assets
+Unity/*/Assets/MobileDependencyResolver/
+Unity/*/Assets/MobileDependencyResolver.meta

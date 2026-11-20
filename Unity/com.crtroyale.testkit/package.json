@@ -1,0 +1,8 @@
+{
+  "name": "com.crtroyale.testkit",
+  "version": "1.0.0",
+  "displayName": "CRT Royale Test Kit",
+  "description": "Shared test scene and capture harness for the CRT Royale port.",
+  "unity": "6000.0",
+  "dependencies": { "com.crtroyale.shaders": "1.0.0" }
+}

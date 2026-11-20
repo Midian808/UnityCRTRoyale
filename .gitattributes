@@ -1,0 +1,6 @@
+* text=auto
+
+*.png binary
+*.asset text eol=lf
+*.unity text eol=lf
+*.meta text eol=lf

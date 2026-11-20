@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de640fe3d0db1804a85f9fc8f5cadab6, type: 3}
+  m_Name: Renderer
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalRendererData
+  debugShaders:
+    debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7, type: 3}
+    hdrDebugViewPS: {fileID: 4800000, guid: 573620ae32aec764abd4d728906d2587, type: 3}
+    probeVolumeSamplingDebugComputeShader: {fileID: 7200000, guid: 53626a513ea68ce47b59dc1299fe3959, type: 3}
+  probeVolumeResources:
+    probeVolumeDebugShader: {fileID: 0}
+    probeVolumeFragmentationDebugShader: {fileID: 0}
+    probeVolumeOffsetDebugShader: {fileID: 0}
+    probeVolumeSamplingDebugShader: {fileID: 0}
+    probeSamplingDebugMesh: {fileID: 0}
+    probeSamplingDebugTexture: {fileID: 0}
+    probeVolumeBlendStatesCS: {fileID: 0}
+  m_RendererFeatures:
+  - {fileID: 1650849326420704799}
+  m_RendererFeatureMap: 1fbeff3eb7fee816
+  m_UseNativeRenderPass: 0
+  xrSystemData: {fileID: 0}
+  postProcessData: {fileID: 0}
+  m_AssetVersion: 3
+  m_PrepassLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_OpaqueLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_TransparentLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_DefaultStencilState:
+    overrideStencilState: 0
+    stencilReference: 0
+    stencilCompareFunction: 8
+    passOperation: 2
+    failOperation: 0
+    zFailOperation: 0
+  m_ShadowTransparentReceive: 1
+  m_RenderingMode: 0
+  m_DepthPrimingMode: 0
+  m_CopyDepthMode: 1
+  m_DepthAttachmentFormat: 0
+  m_DepthTextureFormat: 0
+  m_AccurateGbufferNormals: 0
+  m_IntermediateTextureMode: 1
+--- !u!114 &1650849326420704799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 416bbf8aeeba24b44b06bb4d4eb6810c, type: 3}
+  m_Name: CRT Royale
+  m_EditorClassIdentifier: CrtRoyale.URP::CrtRoyale.CrtRoyaleFeature
+  m_Active: 1
+  settings:
+    useFullFrame: 1
+    contentSize: {x: 1920, y: 1080}
+    contentCenterOffset: {x: 0, y: 0}
+    showContentBox: 0
+    contentBoxInscribed: 1
+    contentBoxThickness: 5
+    contentBoxColor: {r: 1, g: 0, b: 0, a: 1}
+    maskType: 4
+    maskSizeParam: 0
+    maskTriadWidth: 3
+    maskNumTriadsAcross: 480
+    scaleTriadHeight: 1
+    phosphorThickness: {x: 0.2, y: 0.2}
+    phosphorSharpness: {x: 50, y: 50}
+    phosphorOffsetX: {x: 0, y: 0, z: 0}
+    phosphorOffsetY: {x: 0, y: 0, z: 0}
+    scanlineThickness: 2
+    scanlineOffset: 0
+    beamShape: 1
+    enableInterlacing: 0
+    interlaceBackFieldFirst: 0
+    deinterlacingMode: 1
+    deinterlacingBlendGamma: 1
+    linearBeamThickness: 1
+    gaussianBeamMinSigma: 0.02
+    gaussianBeamMaxSigma: 0.3
+    gaussianBeamSpotPower: 0.33333334
+    gaussianBeamMinShape: 2
+    gaussianBeamMaxShape: 4
+    gaussianBeamShapePower: 0.25
+    convergenceOffsetX: {x: 0, y: 0, z: 0}
+    convergenceOffsetY: {x: 0, y: 0, z: 0}
+    crtGamma: 2.5
+    lcdGamma: 2.2
+    levelsContrast: 1
+    halationWeight: 0
+    diffusionWeight: 0.075
+    blurRadius: 1
+    bloomUnderestimateLevels: 0.8
+    bloomExcess: 0
+    rotation: 0
+    geometryMode: 0
+    geometryRadius: 2
+    viewDistance: 2
+    tiltAngle: {x: 0, y: 0}
+    aspectRatio: {x: 1.3130699, y: 1}
+    overscan: {x: 1, y: 1}
+    borderSize: 0.015
+    borderDarkness: 2
+    borderCompress: 2.5
+    enablePreblur: 1
+    preblurEffectRadius: {x: 0, y: 0}
+    preblurSamplingRadius: {x: 0, y: 0}
+    antialiasLevel: 0
+    antialiasFilter: 6
+    antialiasTemporal: 0
+    beamDistColorSamples: 1024
+    beamDistDistanceSamples: 120
+    bloomApproxDownsizingFactor: 4

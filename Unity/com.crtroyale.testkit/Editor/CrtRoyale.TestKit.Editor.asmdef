@@ -1,0 +1,6 @@
+{
+  "name": "CrtRoyale.TestKit.Editor",
+  "rootNamespace": "CrtRoyale.TestKit",
+  "references": ["CrtRoyale", "CrtRoyale.TestKit"],
+  "includePlatforms": ["Editor"]
+}

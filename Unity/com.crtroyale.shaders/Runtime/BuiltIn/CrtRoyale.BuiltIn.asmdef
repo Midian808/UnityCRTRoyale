@@ -1,0 +1,5 @@
+{
+  "name": "CrtRoyale.BuiltIn",
+  "rootNamespace": "CrtRoyale",
+  "references": ["CrtRoyale"]
+}

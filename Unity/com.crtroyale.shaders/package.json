@@ -1,0 +1,8 @@
+{
+  "name": "com.crtroyale.shaders",
+  "version": "1.0.0",
+  "displayName": "CRT Royale",
+  "description": "Unity port of crt-royale-reshade 2.1.0 for the Built-in Render Pipeline and URP. GPL-3.0-or-later.",
+  "unity": "6000.0",
+  "license": "GPL-3.0-or-later"
+}
